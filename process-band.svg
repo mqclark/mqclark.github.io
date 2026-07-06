@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-label="Abstract experimental pathways converging on behavior" preserveAspectRatio="xMidYMid slice">
+ <rect width="1000" height="560" fill="#1e3551"/>
+ <g fill="none" stroke="#73bfc3" stroke-width="6" opacity=".8"><path d="M60 100 C210 160 260 320 480 290 S630 240 910 75"/><path d="M50 472 C194 391 272 275 493 318 S723 466 930 471"/><path d="M275 0 C335 165 396 180 510 282 S651 429 767 560"/></g>
+ <g fill="#f0c85a"><circle cx="60" cy="100" r="16"/><circle cx="480" cy="290" r="21"/><circle cx="910" cy="75" r="14"/><circle cx="50" cy="472" r="16"/><circle cx="493" cy="318" r="19"/><circle cx="930" cy="471" r="15"/></g>
+ <g transform="translate(655 258)"><ellipse rx="68" ry="38" fill="#f7f4ec"/><ellipse cx="-75" cy="0" rx="32" ry="30" fill="#73bfc3"/><circle cx="-86" cy="-8" r="5" fill="#102238"/><path d="M-95 -24 C-127 -64 -154 -59 -171 -42 M-84 -30 C-99 -71 -126 -82 -145 -74" fill="none" stroke="#f7f4ec" stroke-width="5" stroke-linecap="round"/><path d="M0 -30 C50 -90 110 -96 160 -62 C104 -32 63 -3 7 13Z" fill="#b7c79e"/><path d="M0 20 C48 81 107 83 160 48 C107 20 62 -3 7 -12Z" fill="#ee7655"/><path d="M48 13 L150 71 M39 28 L116 111 M12 30 L0 130 M-8 31 L-72 117" stroke="#f7f4ec" stroke-width="6" stroke-linecap="round"/></g>
+ <text x="55" y="515" fill="#dbe3d8" font-family="Georgia,serif" font-size="24">ask · test · observe · revise</text>
+</svg>

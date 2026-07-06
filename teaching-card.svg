@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-label="Abstract students and notebooks" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="540" fill="#efe8d3"/>
+  <rect x="78" y="124" width="270" height="306" rx="20" fill="#f7f4ec" transform="rotate(-8 213 277)"/>
+  <path d="M118 190 H300 M108 228 H292 M98 266 H270 M96 304 H275" stroke="#73bfc3" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="150" cy="356" r="18" fill="#ee7655"/><circle cx="207" cy="341" r="13" fill="#f0c85a"/><circle cx="258" cy="370" r="11" fill="#b7c79e"/>
+  <g transform="translate(474 164)"><circle cx="98" cy="60" r="46" fill="#102238"/><circle cx="213" cy="101" r="40" fill="#ee7655"/><circle cx="37" cy="173" r="38" fill="#73bfc3"/><path d="M96 111 C83 182 71 232 62 299 M194 139 C187 202 190 247 198 304 M58 202 C131 215 196 218 270 232" fill="none" stroke="#102238" stroke-width="18" stroke-linecap="round"/><path d="M59 298 L23 360 M78 299 L116 357 M194 300 L162 366 M208 300 L249 356" stroke="#102238" stroke-width="16" stroke-linecap="round"/></g>
+  <path d="M432 476 C520 424 610 455 722 403" fill="none" stroke="#ee7655" stroke-width="7" stroke-dasharray="12 12"/>
+</svg>
