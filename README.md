@@ -1,45 +1,22 @@
-# The Clark Lab: GitHub Pages site
+# The Clark Lab — mqclark.github.io
 
-A static, no-build website for GitHub Pages. It uses plain HTML, CSS, JavaScript, and local SVG artwork. No framework, database, or paid hosting is required.
+Static site (plain HTML + one CSS file). No build step.
 
-## What is in this package
+## Deploy
+Replace the repository contents with everything in this folder, then commit.
+GitHub Pages serves `index.html` (the Research page) from the repo root.
 
-- `index.html` — home page
-- `research.html` — research and selected publications
-- `students.html` — undergraduate research and teaching
-- `outreach.html` — Pueblo Brain Science, public science, creative work
-- `about.html` — bio and publications
-- `contact.html` — contact page
-- `assets/styles.css` — all layout and visual styling
-- `assets/script.js` — mobile navigation, reduced-motion-respecting reveal effects, current year
-- `assets/img/` — original abstract SVG visuals that can later be replaced with cleared lab, student, microscopy, and outreach photographs
+## Files
+- `index.html` (Research / home), `teaching.html`, `about.html`, `outreach.html`,
+  `news.html`, `imaging.html`, `contact.html`, `404.html`
+- `assets/styles.css` — Montserrat + Lato, white/black/red academic theme
+- `assets/img/` — photos and microscopy
 
-## Publish on GitHub Pages
+## To update text
+Open the relevant `.html` file and edit the paragraphs. To change a photo,
+drop a new file into `assets/img/` using the same filename.
 
-1. Create a GitHub account if you do not have one.
-2. Create a new public repository. Either:
-   - Name it `YOUR-USERNAME.github.io` for a site at `https://YOUR-USERNAME.github.io`, or
-   - Give it another name, such as `clark-lab-site`, for a project site at `https://YOUR-USERNAME.github.io/clark-lab-site/`.
-3. Upload every file and folder in this package to the repository root. Do not upload the enclosing `clark-lab-github-pages` folder itself.
-4. In the repository, open **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select the `main` branch and the `/ (root)` folder, then save.
-7. GitHub will give you the public address after the deployment completes.
-
-## Before launch
-
-- Confirm the faculty title, email address, and Bucknell affiliation.
-- Replace the abstract SVGs in `assets/img/` with approved real imagery where possible. Keep the file names or update the image paths in the HTML.
-- Add a current professional headshot and approved student / outreach images only after confirming public-use permissions.
-- Add verified DOI, PubMed, or Google Scholar links to publications.
-- Add a downloadable current CV only after deciding it is public-safe.
-- Replace the "In focus" cards with dates and current developments once you decide what should be public.
-- Add your custom domain in GitHub Pages only after buying and configuring it with a registrar.
-
-## Editing copy
-
-Open any `.html` file in a plain-text editor. The site is deliberately simple: headings and paragraphs are visible directly in the page files.
-
-## Design intent
-
-The site is intentionally low-text, mobile-first, and visual. The SVG artwork is abstract rather than data-derived so it does not imply unpublished figures or results.
+## Notes to confirm
+- Contact email currently `matthew.clark@bucknell.edu` (your Bucknell profile also lists `mc086@bucknell.edu`).
+- `imaging.html` uses the HHMI pilidium image and the larval GIF — confirm reuse rights.
+- Outreach photos with identifiable people were intentionally left out pending consent.
