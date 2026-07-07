@@ -1,98 +1,40 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Research in the Clark Lab: Drosophila neural circuits, locomotion, development, and behavior.">
-  <title>Research | The Clark Lab</title>
-  <link rel="stylesheet" href="assets/styles.css">
-  <script defer src="assets/script.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research | The Clark Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <a class="brand" href="index.html" aria-label="The Clark Lab home"><span class="brand-mark" aria-hidden="true">C</span><span><strong>The Clark Lab</strong><small>Biology · Neuroscience · Bucknell</small></span></a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-      <a href="index.html">Home</a><a class="active" aria-current="page" href="research.html">Research</a><a href="students.html">Students + Teaching</a><a href="outreach.html">Outreach + Creative Work</a><a href="about.html">About + Publications</a><a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main id="main">
-    <section class="page-hero section-shell compact-hero">
-      <p class="eyebrow">Research</p>
-      <h1>The neurons that make an animal move.</h1>
-      <p class="lead max-copy">We use the fruit fly to figure out how neural circuits are built during development, and how they turn brain activity into coordinated movement.</p>
-    </section>
+<header class="site-header">
+  <a class="site-title" href="index.html">The Clark Lab</a>
+  <p class="site-sub">Matthew Q. Clark, PhD &middot; Bucknell University</p>
+  <nav class="nav"><a href="index.html">Home</a><a href="research.html" class="active">Research</a><a href="teaching.html">Teaching</a><a href="people.html">People</a><a href="outreach.html">Outreach + Inclusion</a><a href="news.html">In the News</a><a href="imaging.html">Imaging &amp; Illustration</a><a href="contact.html">Contact</a></nav>
+</header>
+<section class="page-band"><p class="eyebrow">The Clark Lab</p><h1>Research</h1></section>
+<main>
+<h2>Motor control of locomotion behaviors</h2>
+<hr class="rule">
+<p>Muscles provide the force necessary to generate movements that drive locomotor behaviors. Muscles innervated by single motor neurons comprise synergistic motor units that can be recruited to perform a given task. <em>Drosophila</em> use only a dozen pairs of flight steering motor units to regulate wing motion during both quick maneuvers and slow compensatory reflexes.</p>
+<p>Steering muscles can be functionally grouped according to their size and patterns of activity. Small tonically active muscles allow the fly to steer straight via subtle adjustments in the phase of firing relative to wing strokes; large phasically active muscles allow the fly to quickly alter heading via rapid changes in muscle activity. Although the motor neurons and muscles are relatively well characterized, the network of interneurons that controls them is poorly understood.</p>
+<p>To begin to address this, I performed a neurogenetic behavior screen of 50 split-GAL4 driver lines and found ~25 that alter aspects of the flight motor program upon optogenetic stimulation. Activation produces a variety of effects on wing amplitude and wingbeat frequency compared to controls, suggesting that dedicated interneuron groups govern specific adjustments to wing motion. Using genetic mosaic analysis to stochastically express the optogenetic effector CsChrimson in select cell classes &mdash; with post-hoc analysis of behavior and anatomy &mdash; I identify the minimal set of neurons capable of eliciting changes in wing kinematics. This serves as the &lsquo;ground truth&rsquo; for matching neurons by light and electron microscopy toward comprehensive connectomic mapping of the flight motor system.</p>
+<figure><img src="assets/img/flight-steering.jpg" alt="Tethered-flight imaging of the Drosophila flight steering motor system" width="760"><figcaption>Imaging the flight steering motor system.</figcaption></figure>
 
-    <section class="section-shell research-statement reveal">
-      <div class="split-heading">
-        <h2>Start with the behavior, work back to the circuit.</h2>
-        <p>When an animal moves, its nervous system is choosing an action and timing the muscles to carry it out. In a fly, we can watch a behavior and then trace it back to the specific neurons responsible, which is much harder to do in a bigger brain.</p>
-      </div>
-    </section>
-
-    <section class="section-shell project-stack">
-      <article class="project-panel reveal">
-        <div class="project-index">01</div>
-        <div>
-          <p class="section-kicker">Descending neurons</p>
-          <h2>The link between brain and body</h2>
-          <p>Descending neurons are the small set of cells that carry signals from the brain into the nerve cord, where the circuits that actually move the body live. During my PhD I helped identify one of them, the Mooncrawler Descending Neuron: switch it on and a forward-crawling larva stops, reverses, and backs up, turning on backward movement and shutting off forward movement at the same time. At Bucknell we use flies to ask how neurons like this pick one action over another, and how that switch is built into the circuit.</p>
-        </div>
-        <img src="assets/img/research-card.svg" alt="Abstract neural circuit map connected to a fly silhouette">
-      </article>
-      <article class="project-panel reveal">
-        <div class="project-index">02</div>
-        <div>
-          <p class="section-kicker">Circuit development</p>
-          <h2>Building a circuit before it's used</h2>
-          <p>Before an animal can move, the circuit that produces movement has to be assembled: each neuron has to be born on schedule, take on the right identity, and connect to the right partners. My work here, including studies of the Hunchback transcription factor and the interneurons that keep left and right muscle contractions matched, asks how a circuit's developmental history shapes the behavior it can produce. We follow those steps with fly genetics and imaging.</p>
-        </div>
-        <img src="assets/img/hero-circuit.svg" alt="Abstract fly and neural branching pattern">
-      </article>
-      <article class="project-panel reveal">
-        <div class="project-index">03</div>
-        <div>
-          <p class="section-kicker">Methods</p>
-          <h2>How we work</h2>
-          <p>We combine Drosophila genetics (GAL4 and split-GAL4 lines that give us handles on specific neurons), optogenetics (light-sensitive proteins like CsChrimson that let us switch a chosen neuron on in a moving animal), confocal microscopy, and quantitative behavior tracking. The through-line is always the same: start from one identified cell type and connect it to something the animal does.</p>
-        </div>
-        <img src="assets/img/process-band.svg" alt="Abstract experimental paths converging on behavior">
-      </article>
-    </section>
-
-    <!-- Motor control / flight background (images + copy carried from prior work) -->
-    <style>
-    .flight-figs{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2rem}
-    .flight-figs figure{margin:0}
-    .flight-figs img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:1rem}
-    .flight-figs figcaption{margin-top:.6rem;font-size:.85rem;color:var(--ink-soft);line-height:1.45}
-    @media(max-width:800px){.flight-figs{grid-template-columns:1fr}}
-    </style>
-    <section class="section-shell flight-section reveal">
-      <div class="split-heading">
-        <h2>Motor control, from crawling to flight.</h2>
-        <p>The same question runs through very different behaviors: how does a nervous system produce one coordinated movement instead of another? In my postdoctoral work I took it into flight. A fly steers with only about a dozen pairs of wing muscles, so I ran a large optogenetic screen, activating candidate neurons with light in tethered, flying flies, to find the cells that adjust wing motion, then traced them by light and electron microscopy. It is part of why the lab thinks about motor control across scales, from a crawling larva to a fly in the air.</p>
-      </div>
-      <div class="flight-figs">
-        <figure><img src="assets/img/flight-rig.jpg" alt="A tethered fly in a circular LED flight arena, imaged from below by optics beneath the display."><figcaption>A tethered fly in an LED flight arena, imaged from below.</figcaption></figure>
-        <figure><img src="assets/img/tethered-flight.jpg" alt="A tethered fly seen from behind, with magenta lines marking the left and right wing-stroke envelopes."><figcaption>Wing-stroke envelopes (magenta) tracked during tethered flight.</figcaption></figure>
-        <figure><img src="assets/img/em-connectome.jpg" alt="A grayscale electron-microscopy section of neural tissue used to trace neurons."><figcaption>Electron microscopy for connectomic mapping of the circuit.</figcaption></figure>
-      </div>
-    </section>
-
-    <section class="section-shell publication-section">
-      <div class="section-heading reveal"><p class="section-kicker">Publications</p><h2>Selected publications.</h2></div>
-      <ol class="publication-list">
-        <li class="reveal"><span>2018</span><p><strong>Carreira-Rosario, A., Zarin, A.A., Clark, M.Q.,</strong> Manning, L., Fetter, R.D., Cardona, A., &amp; Doe, C.Q. <em>A command-like descending neuron that coordinately activates backward and inhibits forward locomotion.</em> eLife.</p></li>
-        <li class="reveal"><span>2018</span><p><strong>Clark, M.Q., Zarin, A.A.,</strong> Carreira-Rosario, A., &amp; Doe, C.Q. <em>Neural circuits driving larval locomotion in Drosophila.</em> Neural Development 13:6.</p></li>
-        <li class="reveal"><span>2017</span><p>Hirono, K., Kohwi, M., <strong>Clark, M.Q.,</strong> Heckscher, E.S., &amp; Doe, C.Q. <em>The Hunchback temporal transcription factor establishes, but is not required to maintain, early-born neuronal identity.</em> Neural Development 12(1):1.</p></li>
-        <li class="reveal"><span>2016</span><p><strong>Clark, M.Q.,</strong> McCumsey, S.J., Lopez-Darwin, S., Heckscher, E.S., &amp; Doe, C.Q. <em>Functional genetic screen to identify interneurons governing behaviorally distinct aspects of Drosophila larval motor programs.</em> G3: Genes|Genomes|Genetics 6(7):2023–2031.</p></li>
-        <li class="reveal"><span>2015</span><p>Heckscher, E.S., Zarin, A.A., Faumont, S., <strong>Clark, M.Q.,</strong> Manning, L., Fushiki, A., et al. <em>Even-skipped+ interneurons are core components of a sensorimotor circuit that maintains left-right symmetric muscle contraction amplitude.</em> Neuron 88(2):314–329.</p></li>
-      </ol>
-      <a class="text-link reveal" href="about.html#publications">See the full publication list <span aria-hidden="true">→</span></a>
-    </section>
-  </main>
-  <footer class="site-footer"><div class="footer-main section-shell"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">C</span><span><strong>The Clark Lab</strong><small>Biology · Neuroscience · Bucknell</small></span></a><p class="footer-note">How nervous systems become behavior.</p></div><div class="footer-links"><a href="research.html">Research</a><a href="students.html">Students + Teaching</a><a href="outreach.html">Outreach + Creative Work</a><a href="about.html">About + Publications</a><a href="contact.html">Contact</a></div><div class="footer-contact"><a href="mailto:matthew.clark@bucknell.edu">matthew.clark@bucknell.edu</a><p>Bucknell University<br>Lewisburg, Pennsylvania</p></div></div><div class="footer-bottom section-shell"><span>© <span id="year"></span> Matthew Q. Clark</span><span>Built for GitHub Pages</span></div></footer>
+<h2>Publications</h2>
+<hr class="rule">
+<p class="muted">^Denotes undergraduate mentee &middot; *denotes equal contribution</p>
+<ul class="pub-list">
+<li><span class="yr">2018 &middot; eLife</span><br>Carreira-Rosario A.*, Zarin A.A.*, <b>Clark M.Q.*</b>, Manning L., Fetter R.D., Cardona A., Doe C.Q. A command-like descending neuron that coordinately activates backward and inhibits forward locomotion. <em>eLife</em>.</li>
+<li><span class="yr">2018 &middot; Neural Development</span><br><b>Clark M.Q.*</b>, Zarin A.A.*, Carreira-Rosario A., Doe C.Q. Neural circuits driving larval locomotion in <em>Drosophila</em>. <em>Neural Development</em> 13:6.</li>
+<li><span class="yr">2017 &middot; Neural Development</span><br>Hirono K., Kohwi M., <b>Clark M.Q.</b>, Heckscher E.S., Doe C.Q. The Hunchback temporal transcription factor establishes, but is not required to maintain, early-born neuronal identity. <em>Neural Development</em> 12(1):1.</li>
+<li><span class="yr">2016 &middot; G3</span><br><b>Clark M.Q.</b>, McCumsey S.J.^, Lopez-Darwin S.^, Heckscher E.S., Doe C.Q. Functional genetic screen to identify interneurons governing behaviorally distinct aspects of <em>Drosophila</em> larval motor programs. <em>G3: Genes|Genomes|Genetics</em> 6(7):2023&ndash;2031.</li>
+<li><span class="yr">2015 &middot; Neuron</span><br>Heckscher E.S., Zarin A.A., Faumont S., <b>Clark M.Q.</b>, Manning L., Fushiki A., &hellip; Landgraf M. Even-skipped+ interneurons are core components of a sensorimotor circuit that maintains left-right symmetric muscle contraction amplitude. <em>Neuron</em> 88(2):314&ndash;329.</li>
+</ul>
+</main>
+<footer class="site-footer">
+  <p>&copy; 2026 The Clark Lab &middot; Department of Biology, Bucknell University &middot; <a href="contact.html">Contact</a></p>
+</footer>
 </body>
 </html>

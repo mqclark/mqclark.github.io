@@ -75,3 +75,65 @@ address{font-style:normal;color:#333;line-height:1.8}
 /* footer */
 .site-footer{border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:.8rem;padding:2rem 1rem 2.6rem}
 .site-footer a{color:var(--muted)}
+
+/* ============ engagement layer ============ */
+:root{--teal:#0e8f8f;--teal-dk:#0b6d6d;--gold:#d99a2b;--green:#3f9e5b;--plum:#8e3b6b;--ink2:#14343a}
+
+/* home hero */
+.hero{padding:3.4rem 1.25rem 1rem;max-width:1120px;margin:0 auto}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:2.6rem;align-items:center}
+@media(max-width:760px){.hero-grid{grid-template-columns:1fr;gap:1.6rem}}
+.hero .eyebrow{color:var(--red);text-transform:uppercase;letter-spacing:.16em;font-size:.7rem;font-weight:700;margin:0 0 .8rem}
+.hero h1{font-family:var(--head);font-weight:700;font-size:clamp(2.2rem,4.6vw,3.6rem);line-height:1.08;letter-spacing:-.01em;margin:0 0 1.1rem}
+.hero h1 .hl{color:var(--teal)}
+.hero p.sub{font-size:1.18rem;color:#3a3a3a;margin:0 0 1.7rem;max-width:34rem}
+.btn-row{display:flex;flex-wrap:wrap;gap:.7rem}
+.btn{display:inline-block;font-family:var(--head);font-weight:600;font-size:.82rem;letter-spacing:.03em;padding:.8rem 1.3rem;border-radius:2rem;text-decoration:none;transition:transform .15s ease}
+.btn:hover{text-decoration:none;transform:translateY(-2px)}
+.btn-primary{background:var(--red);color:#fff}
+.btn-ghost{background:#fff;color:var(--ink);border:1.5px solid #ddd}
+.hero-art{border-radius:1rem;overflow:hidden;background:#000;box-shadow:0 20px 50px rgba(0,0,0,.18);aspect-ratio:1/1}
+.hero-art img{width:100%;height:100%;object-fit:cover}
+
+/* wonder / quote band */
+.quote-band{background:var(--ink2);color:#eafafa;margin-top:2.4rem;padding:3.2rem 1.25rem}
+.quote-band .inner{max-width:860px;margin:0 auto;text-align:center}
+.quote-band p{font-family:var(--head);font-weight:400;font-size:clamp(1.35rem,2.6vw,2rem);line-height:1.4;margin:0}
+.quote-band .hl{color:#5fd0d0}
+
+/* section wrapper on home */
+.home-sec{max-width:1120px;margin:0 auto;padding:3.2rem 1.25rem}
+.home-sec>h2{text-align:center;margin:0 0 .3rem}
+.home-sec>.sub{text-align:center;color:var(--muted);margin:0 auto 1.8rem;max-width:40rem}
+.center-rule{height:3px;width:56px;background:var(--red);border:0;margin:.6rem auto 1.6rem}
+
+/* image strip */
+.strip{display:grid;grid-template-columns:repeat(5,1fr);gap:.6rem}
+@media(max-width:760px){.strip{grid-template-columns:repeat(2,1fr)}}
+.strip a{display:block;overflow:hidden;border-radius:.5rem;aspect-ratio:1/1;background:#000}
+.strip img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.strip a:hover img{transform:scale(1.08)}
+
+/* feature cards */
+.feature-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+@media(max-width:860px){.feature-cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.feature-cards{grid-template-columns:1fr}}
+.fcard{display:block;padding:1.5rem;border-radius:.8rem;color:#fff;text-decoration:none;min-height:170px;transition:transform .18s ease,box-shadow .18s ease}
+.fcard:hover{text-decoration:none;transform:translateY(-4px);box-shadow:0 16px 34px rgba(0,0,0,.16)}
+.fcard h3{font-family:var(--head);font-weight:700;font-size:1.3rem;margin:.2rem 0 .5rem;color:#fff}
+.fcard p{margin:0;font-size:.92rem;opacity:.94;color:#fff}
+.fcard .arrow{display:inline-block;margin-top:1rem;font-family:var(--head);font-weight:700;font-size:.8rem;letter-spacing:.05em}
+.fc-teal{background:var(--teal)} .fc-gold{background:var(--gold)} .fc-red{background:var(--red)} .fc-green{background:var(--green)}
+
+/* motion moment */
+.motion{background:var(--band);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.motion .inner{max-width:900px;margin:0 auto;padding:3rem 1.25rem;display:grid;grid-template-columns:230px 1fr;gap:2rem;align-items:center}
+@media(max-width:640px){.motion .inner{grid-template-columns:1fr;text-align:center}}
+.motion img{width:100%;border-radius:.6rem;background:#000}
+.motion h2{margin:0 0 .5rem}
+.motion p{margin:0;color:#444}
+
+/* join */
+.join{max-width:860px;margin:0 auto;padding:3.2rem 1.25rem 1rem;text-align:center}
+.join h2{margin:0 0 .6rem}
+.join p{color:#444;max-width:40rem;margin:0 auto 1.4rem}
